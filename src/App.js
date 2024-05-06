@@ -17,7 +17,7 @@ function App() {
             <Router>
                 <NavBar/>
                 <Routes>
-                    <Route path="/" element={<Main/>}/>
+                    <Route path="" element={<Main/>}/>
                     <Route path="/main" element={<Main/>}/>
                     <Route path="/apod" element={<Apod/>}/>
                     <Route path="/epic" element={<Epic/>}/>
