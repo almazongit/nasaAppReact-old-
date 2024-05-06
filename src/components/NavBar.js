@@ -32,7 +32,7 @@ export const NavBar = () => {
   return (
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="">
               <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -40,6 +40,7 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <Nav.Link as={Link} to="/main" className={activeLink === 'main' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('main')}>Main</Nav.Link>
               <Nav.Link as={Link} to="/apod" className={activeLink === 'apod' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('apod')}>Apod</Nav.Link>
               <Nav.Link as={Link} to="/epic" className={activeLink === 'epic' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('epic')}>Epic</Nav.Link>
               <Nav.Link as={Link} to="/rover" className={activeLink === 'rover' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('rover')}>Rover</Nav.Link>
@@ -50,7 +51,6 @@ export const NavBar = () => {
                 <a href="https://vk.com/"><img src={navIcon2} alt="" /></a>
                 <a href="https://ya.ru/"><img src={navIcon3} alt="" /></a>
               </div>
-                {/* <button className="vvd"><span>Начнем</span></button> */}
             </span>
           </Navbar.Collapse>
         </Container>

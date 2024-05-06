@@ -61,9 +61,6 @@ export const Apod = () => {
                     <input className="input-date" type="date" placeholder="Введите день"/>
                     <input className="input-submit" type="submit" />
                 </form>
-
-                {/* {data ? <FetchedPhoto data={data}/> : <p>Данные не найдены</p>}
-                 */}
                 
                 {
                     data.length === 0 ? <><p>Данные не найдены, возможно ошибка запроса</p><Stars/></> : <FetchedPhoto data={data}/>

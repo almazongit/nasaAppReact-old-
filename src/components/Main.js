@@ -7,7 +7,7 @@ import TrackVisibility from 'react-on-screen';
 import { Helmet } from 'react-helmet';
 
 
-const Main = () => {
+export const Main = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -90,4 +90,4 @@ const Main = () => {
     )
 };
 
-export default Main;
+
