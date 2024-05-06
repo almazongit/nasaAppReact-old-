@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nasaAppReact/static/css/main.b39f4442.css",
+    "main.js": "/nasaAppReact/static/js/main.e42b43e9.js",
+    "static/js/453.f5384b27.chunk.js": "/nasaAppReact/static/js/453.f5384b27.chunk.js",
+    "static/media/banner-bg.png": "/nasaAppReact/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/nasaAppReact/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/nasaAppReact/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/nasaAppReact/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/nasaAppReact/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/nav-icon2.svg": "/nasaAppReact/static/media/nav-icon2.be1af132695ca77283c0e487d10ce01b.svg",
+    "static/media/logo.svg": "/nasaAppReact/static/media/logo.7f50a6029cd415d29f8615fa5c668c4f.svg",
+    "static/media/nav-icon1.svg": "/nasaAppReact/static/media/nav-icon1.d6bc423665cbde9f177422ad37f0b429.svg",
+    "index.html": "/nasaAppReact/index.html",
+    "static/media/nav-icon3.svg": "/nasaAppReact/static/media/nav-icon3.11212cd767aeb41b057d7599b5dabc08.svg",
+    "main.b39f4442.css.map": "/nasaAppReact/static/css/main.b39f4442.css.map",
+    "main.e42b43e9.js.map": "/nasaAppReact/static/js/main.e42b43e9.js.map",
+    "453.f5384b27.chunk.js.map": "/nasaAppReact/static/js/453.f5384b27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b39f4442.css",
+    "static/js/main.e42b43e9.js"
+  ]
+}
