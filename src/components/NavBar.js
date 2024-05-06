@@ -4,7 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import { Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
 
@@ -40,10 +40,10 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/main" className={activeLink === 'main' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('main')}>Main</Nav.Link>
-              <Nav.Link as={Link} to="/apod" className={activeLink === 'apod' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('apod')}>Apod</Nav.Link>
-              <Nav.Link as={Link} to="/epic" className={activeLink === 'epic' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('epic')}>Epic</Nav.Link>
-              <Nav.Link as={Link} to="/rover" className={activeLink === 'rover' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('rover')}>Rover</Nav.Link>
+              <Nav.Link as={NavLink} to="/main" className={activeLink === 'main' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('main')}>Main</Nav.Link>
+              <Nav.Link as={NavLink} to="/apod" className={activeLink === 'apod' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('apod')}>Apod</Nav.Link>
+              <Nav.Link as={NavLink} to="/epic" className={activeLink === 'epic' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('epic')}>Epic</Nav.Link>
+              <Nav.Link as={NavLink} to="/rover" className={activeLink === 'rover' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('rover')}>Rover</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
