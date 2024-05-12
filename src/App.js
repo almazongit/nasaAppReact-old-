@@ -17,11 +17,10 @@ function App() {
             <Router>
                 <NavBar/>
                 <Routes>
-                    <Route path="/nasaAppReact" element={<Main/>}/>
-                    <Route path="/nasaAppReact/main" element={<Main/>}/>
-                    <Route path="/nasaAppReact/apod" element={<Apod/>}/>
-                    <Route path="/nasaAppReact/epic" element={<Epic/>}/>
-                    <Route path="/nasaAppReact/rover" element={<Rover/>}/>
+                    <Route path="/" element={<Main/>}/>
+                    <Route path="/apod" element={<Apod/>}/>
+                    <Route path="/epic" element={<Epic/>}/>
+                    <Route path="/rover" element={<Rover/>}/>
                 </Routes>
             </Router>
         </>
